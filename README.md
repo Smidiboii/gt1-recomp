@@ -3,6 +3,7 @@
 **A static recompilation of *Gran Turismo* (1997, PS1, NTSC-U) into a native, emulator-free PC executable.**
 
 Every original MIPS R3000 instruction is translated ahead of time into equivalent C++, with BIOS, GPU, and CD-ROM behavior modeled directly in a hand-written runtime harness — the same technique behind [N64Recomp](https://github.com/N64Recomp/N64Recomp) (Zelda 64: Recompiled) and [PS1Recomp](https://github.com/PS1Recomp/ps1-recomp), applied here to a title reverse-engineered from scratch.
+/br
 <img width="629" height="470" alt="image" src="https://github.com/user-attachments/assets/84338e8c-cc17-4cd1-a760-d188a7f5a707" />
 
 
