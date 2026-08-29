@@ -1,0 +1,13 @@
+# Never commit the disc image, extracted executable, or overlay data
+*.iso
+*.bin
+*.cue
+*.exe
+/roms/
+/extracted/
+
+# Build output
+/build/
+
+# Ghidra project files (binary databases, don't belong in git)
+/ghidra-project/
